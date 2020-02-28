@@ -1,3 +1,6 @@
+# THIS IS FIRST ATTEMPT TO MAKE THE DRIVER EXTRACTION FUNCTIONS INTO ONE GENERALIZABLE FUNCTION
+# SO FAR UNSUCCESSFUL
+
 
 # A.1 ---------------------------------------------------------------------
 hdm_23<-function(score_matrix, condition1= "gte4>=2"){
