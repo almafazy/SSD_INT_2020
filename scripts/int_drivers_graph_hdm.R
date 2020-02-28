@@ -2,7 +2,7 @@ library(ggplot2)
 library(dplyr)
 source("scripts/functions/hdm_drivers_extraction.R")
 
-int<-readr::read_csv("inputs/INT_DB_20200127.csv")
+int<-readr::read_csv("inputs/int_drivers/INT_DB_20200127.csv")
 int %>% select(contains("score")) %>% colnames()
 
 int %>% select(intersect(starts_with("D"),  contains(".score"))) %>% colnames() %>% dput()
