@@ -37,3 +37,12 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+/inputs/*
+/outputs/*
+/product_related/*
+/scripts/experimental/*
+!/inputs/int_drivers/.gitkeep
+!inputs/.gitkeep
+
+
